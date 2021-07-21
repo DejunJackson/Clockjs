@@ -39,11 +39,9 @@ h1 {
 }
 
 #time {
-  font-size: 18rem;
+
   font-family: 'Agency FB', arial;
   position: absolute;
-  top: 300px;
-  left: 550px;
   text-align: center;
   color: #00FF97;
 }
@@ -55,18 +53,19 @@ and (max-width : 1069px)
 
  {
   #time{
-  font-size: 9rem;
+  font-size: 7.5rem;
   top: 450px;
   left: 300px;
 
   }
   .hours{
-    top: 700px;
-    right: 375px;
+    top: 650px;
+    right: 175px;
   }
   .weekdays{
-    left: 100px;
+    left: 200px;
     margin-top: 300px;
+    font-size: 1rem;
   }
 }
 
@@ -76,19 +75,19 @@ and (max-width : 1069px)
 and (min-width : 1070px)
  {
   #time{
-  font-size: 12rem;
+  font-size: 11rem;
   top: 300px;
-  left: 350px;
+  left: 420px;
 
   }
   .hours{
     top: 550px;
-    right: 375px;
+    right: 200px;
 
   }
   .weekdays{
-    left: 175px;
-
+    left: 300px;
+    font-size: 1.5rem;
     margin-top: 175px;
 
   }
@@ -106,11 +105,11 @@ and (min-width : 1365px)
   }
   .hours{
     top: 550px;
-    right: 175px;
+    right: 50px;
 
   }
   .weekdays{
-    left: 450px;
+    left: 500px;
 
     margin-top: 175px;
 
