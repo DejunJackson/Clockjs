@@ -58,7 +58,7 @@ and (max-width : 1069px)
   font-size: 9rem;
   top: 450px;
   left: 300px;
-  color: white;
+
   }
   .hours{
     top: 700px;
@@ -79,7 +79,7 @@ and (min-width : 1070px)
   font-size: 12rem;
   top: 300px;
   left: 350px;
-  color: white;
+
   }
   .hours{
     top: 550px;
@@ -102,11 +102,11 @@ and (min-width : 1365px)
   font-size: 12rem;
   top: 300px;
   left: 650px;
-  color: white;
+
   }
   .hours{
     top: 550px;
-    right: 150px;
+    right: 175px;
 
   }
   .weekdays{
