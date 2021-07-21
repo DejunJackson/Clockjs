@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Javascript Clock</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="styles.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<!-- Starts time as soon as browser loads -->
+
+<body onload="startTime()">
+  <div class="row">
+    <div class="Sunday weekdays ">SUNDAY</div>
+    <div class="Monday weekdays ">MONDAY</div>
+    <div class="Tuesday weekdays ">TUESDAY</div>
+    <div class="Wednesday weekdays ">WEDNESDAY</div>
+    <div class="Thursday weekdays">THURSDAY</div>
+    <div class="Friday weekdays ">FRIDAY</div>
+    <div class="Saturday weekdays ">SATURDAY</div>
+  </div>
+  <li>
+    <ul class="12hours hours">12 hours</ul>
+    <ul class="24hours hours currentMode">24 hours</ul>
+  </li>
+  <!-- Displays time -->
+  <div id="time"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="clock.js" charset="utf-8"></script>
+</body>
+
+</html>
